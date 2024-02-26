@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .bg{
+           /* background-image: url("https://img.freepik.com/free-photo/urban-landscape_1112-117.jpg?w=740&t=st=1708511116~exp=1708511716~hmac=4e8dd6d8642be0371d86b593c382773fec800aa027af8d8ea8f9146514d4a80d"); */
+            background-size: cover;
+            height: 100vh;
+            text-align: center;
+            padding-top: 20px;
+            
+    
+
+
+
+        }
+
+        .rn{
+            color: rgb(34, 36, 34);
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        img{
+            height: 100px;
+            width: 200px;
+            display: block;
+        }
+
+        input:checked ~ .cyc{
+            transform: translateX(800px);
+            transition-timing-function: ease;
+            transition-duration: 5s;
+        }
+
+        input:checked ~ .car{
+            transform: translateX(800px);
+            transition-timing-function: ease;
+            transition-duration: 3s;
+        }
+
+        input:checked ~ .tr{
+            transform: translateX(800px);
+            transition-timing-function: ease;
+            transition-duration: 2s;
+        }
+
+        input:checked ~ .fl{
+            transform: translateX(800px);
+            transition-timing-function: ease;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+
+        
+        <input type="radio" id="rnn"/>
+        <label class="rn" for="rnn">Run</label>
+
+        <img src="https://img.freepik.com/free-vector/cyclist-man-riding-bicycle-isolated_1308-65928.jpg?w=740&t=st=1708510884~exp=1708511484~hmac=e454dcb033771d29481765719f1b131a107f1a29ddc4740a260a9a19330ffc39" class="cyc" />
+        <br><br>
+        <img src="https://img.freepik.com/free-vector/racing-car-orange-color-isolated-background_1308-69652.jpg?w=900&t=st=1708511827~exp=1708512427~hmac=b1930d5c77328e088ef69ac94f79abf4affbfc93dabb9b9cb6230eaf437fd34f" class="car" />
+        <br><br>
+        <img src="https://img.freepik.com/premium-photo/moder-train-moving-white_433905-622.jpg?w=900" class="tr" />
+        <br><br>
+        <img src="https://img.freepik.com/premium-photo/white-jet-passenger-s-airplane-white-background-3d-rendering_476612-7028.jpg?w=740" class="fl" />
+        <br><br>
+
+
+    </div>
+</body>
+</html>
